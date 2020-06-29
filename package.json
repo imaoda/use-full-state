@@ -1,0 +1,24 @@
+{
+  "name": "use-full-state",
+  "version": "1.0.0",
+  "description": "use state as in class component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imaoda/use-full-state.git"
+  },
+  "keywords": [
+    "useState",
+    "react",
+    "hooks"
+  ],
+  "author": "wangyongfeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imaoda/use-full-state/issues"
+  },
+  "homepage": "https://github.com/imaoda/use-full-state#readme"
+}
