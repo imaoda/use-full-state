@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function useOldState(initialState) {
   const [state, setState] = useState(initialState);
   function partiallySetState(newState) {
-    setState({ ...state, ...newState });
+    const newState = { ...state, ...newState };
+    setState(newState);
+    return newState;
   }
   const suit = [state, partiallySetState];
   return suit;

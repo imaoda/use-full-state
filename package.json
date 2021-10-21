@@ -1,6 +1,6 @@
 {
   "name": "use-full-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "use state as in class component",
   "main": "index.js",
   "scripts": {
